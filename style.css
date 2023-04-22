@@ -1,0 +1,174 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+  background-color: 	hsl(276, 100%, 15%);
+}
+
+div {
+  margin: 10px;
+  font-family: 'Comfortaa', cursive;
+  color: hsl(276, 100%, 15%);
+}
+
+h1, h2, h3, button {
+  font-family: 'Lilita One', cursive;
+}
+
+h2 {
+  font-size: 30px;
+  color: hsl(276, 100%, 15%);
+  text-align: center;
+}
+
+h3 {
+  color: hsl(276, 100%, 15%);
+  font-size: 25px;
+}
+
+#title {
+  font-size: 40px;
+  color: hsl(347, 100%, 61%);
+  background-color:hsla(22, 85%, 69%);
+  height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid hsl(279, 33%, 44%);
+  text-shadow: -2px 2px 4px white,
+				  2px 2px 4px white,
+				  2px -2px 0 white,
+				  -2px -2px 0 white;
+  text-align: center;
+}
+
+.controls {
+	background-color: hsla(22, 85%, 69%);
+	border-radius: 10px;
+	box-shadow: 1px 2px rgba(0, 0, 0, .5);
+	padding: 6px;
+	width: 300px;
+  border: 3px solid white;
+  text-align: center;
+}
+
+.controls input {
+  border-radius: 6px;
+  padding: 6px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.controls button {
+  background-color: hsl(235, 29%, 61%);
+  font-size: 20px;
+  border-radius: 6px;
+  border: 3px solid hsl(279, 33%, 44%);
+  width: 150px;
+}
+
+.controls button:hover {
+  background-color: hsl(235, 29%, 50%);
+}
+
+#app {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.event-log {
+  background-color: 	hsl(279, 33%, 44%);
+  width: 300px;
+  height: 300px;
+  margin: 4px auto;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.user {
+	background-color: 	hsl(279, 33%, 44%);
+  border: 3px solid white;
+
+}
+
+.game-info {
+	background-color: 	hsl(235, 29%, 61%);
+
+	border-radius: 10px;
+	box-shadow: 1px 2px rgba(0, 0, 0, .5);
+	padding: 6px;
+	width: 300px;
+  border: 3px solid white;
+}
+
+#playerTable {
+	margin: 10px;
+  background-color: hsl(149, 44%, 80%);
+	border-radius: 10px;
+	box-shadow: 1px 2px rgba(0, 0, 0, .5);
+	padding: 6px;
+	width: 300px;
+  border: 3px solid white;
+}
+
+.player-table {
+  background-color: hsl(149, 44%, 80%);
+}
+
+.button {
+/*     font-size: 30px; */
+/*     padding: 20px 40px;
+    border-radius: 8px;
+    background-color: 	hsl(347, 100%, 61%); */
+  cursor: pointer;
+  text-align:center;
+  }
+
+.button button {
+  
+  background-color: 	hsl(347, 100%, 61%);
+  border-radius: 6px;
+	padding: 20px;
+  font-size: 40px;
+  color: white;
+  border: 3px solid white;
+  height: 100px;
+}
+  
+.button button:hover {
+    background-color: hsl(347, 100%, 50%);
+  }
+
+.faq {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 50px; /* Adjust to desired height */
+  border: 5px solid hsl(276, 100%, 15%); /* Contrast border */
+  width: 80%; /* Fixed width */
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box; /* Include border in width calculation */
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 18px;
+  line-height: 1.5;
+}
